@@ -1,0 +1,23 @@
+@media (width <= 550px) {
+  .email {
+    max-width: var(--width-100-percent);
+  }
+  .email__image {
+    position: static;
+  }
+  .email__image--arrow {
+    display: none;
+  }
+  .email__content {
+    height: auto;
+  }
+  .email__logo {
+    margin: 0 0 20px;
+  }
+}
+
+@media (width <= 400px) {
+  .email__images {
+    flex-direction: column;
+  }
+}
